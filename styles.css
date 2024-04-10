@@ -37,6 +37,10 @@ header ul{
     padding: 15px 0;
 }
 .ColorTexte1{
+    color: #814a2c;
+    font-family: "Jura", sans-serif;
+}
+.ColorTexte2{
     color: black;
     font-family: "Jura", sans-serif;
 }
