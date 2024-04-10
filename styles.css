@@ -55,7 +55,7 @@ align-content: space-around;
 
 .DivPresentation{
     display: flex;
-    align-content: center;
+    justify-content: center;
 }
 
 }
@@ -64,4 +64,7 @@ main{
     display: flex;
     flex-direction: column;
     gap: 70px;
+}
+img{
+    width: 200px;
 }
