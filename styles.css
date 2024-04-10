@@ -1,0 +1,67 @@
+*{padding: 0;
+    margin: 0;}
+@import url('https://fonts.googleapis.com/css2?family=Handlee&family=Jura:wght@300..700&family=Rubik+Scribble&family=Yanone+Kaffeesatz:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Handlee&family=Jura:wght@300..700&family=Rubik+Scribble&family=Signika+Negative:wght@300..700&family=Yanone+Kaffeesatz:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@300..700&display=swap');
+header{
+    background-color:#f5efd5;
+}
+body{
+    background-color: #ECCA9C;
+}
+
+.logoAcceuil{
+    display: block;
+    margin: auto;
+    width: 100px;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.boutonHeader{
+    font-family: "Signika Negative", sans-serif;
+    font-size: 20px;
+    color: #DBA979;
+
+}
+header ul{
+    padding: 15px 0;
+}
+.ColorTexte1{
+    color: black;
+    font-family: "Jura", sans-serif;
+}
+
+h3{
+    font-family: "Jura", sans-serif;
+    color: #814a2c;
+    font-size: 30px;
+}
+h1{
+    font-size: 15px;
+}
+.DivPrincipals{
+display: flex;
+align-content: space-around;
+
+.DivPresentation{
+    display: flex;
+    align-content: center;
+}
+
+}
+main{
+    margin: 100px 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+}
