@@ -6,6 +6,10 @@
 header{
     background-color:#f5efd5;
 }
+footer{
+    background-color:#f5efd5;
+    padding:20px ;
+}
 body{
     background-color: #ECCA9C;
 }
@@ -31,7 +35,6 @@ ul{
     font-family: "Signika Negative", sans-serif;
     font-size: 20px;
     color: #DBA979;
-
 }
 header ul{
     padding: 15px 0;
@@ -55,14 +58,13 @@ h1{
 }
 .DivPrincipals{
 display: flex;
-align-content: space-around;
+align-content: space-around;}
 
-.DivPresentation{
+.DivPresentation {
     display: flex;
     justify-content: center;
 }
 
-}
 main{
     margin: 100px 50px;
     display: flex;
@@ -71,4 +73,20 @@ main{
 }
 img{
     width: 200px;
+}
+.Contact{
+    justify-content: flex-start;
+}
+
+.Project {
+    display: flex;
+    margin: auto;
+    display: inline-flex;
+    background-color: #814a2c;
+    width: 1000px;
+    display: block inline-block;
+    flex-wrap: wrap-reverse;
+}
+h2{
+
 }
