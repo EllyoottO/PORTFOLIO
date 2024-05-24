@@ -14,11 +14,6 @@ body{
     background-color: #ECCA9C;
 }
 
-.logoAcceuil{
-    display: block;
-    margin: auto;
-    width: 100px;
-}
 a{
     text-decoration: none;
 }
@@ -31,21 +26,8 @@ ul{
     justify-content: space-evenly;
 }
 
-.boutonHeader{
-    font-family: "Signika Negative", sans-serif;
-    font-size: 20px;
-    color: #DBA979;
-}
 header ul{
     padding: 15px 0;
-}
-.ColorTexte1{
-    color: #814a2c;
-    font-family: "Jura", sans-serif;
-}
-.ColorTexte2{
-    color: black;
-    font-family: "Jura", sans-serif;
 }
 
 h3{
@@ -56,15 +38,6 @@ h3{
 h1{
     font-size: 15px;
 }
-.DivPrincipals{
-display: flex;
-align-content: space-around;}
-
-.DivPresentation {
-    display: flex;
-    justify-content: center;
-}
-
 main{
     margin: 100px 50px;
     display: flex;
@@ -74,9 +47,49 @@ main{
 img{
     width: 200px;
 }
-.Contact{
-    justify-content: flex-start;
+
+.boutonHeader{
+    font-family: "Signika Negative", sans-serif;
+    font-size: 20px;
+    color: #DBA979;
 }
+
+.logoAcceuil{
+    display: block;
+    margin: auto;
+    width: 100px;
+}
+
+.ColorTexte1{
+    color: #814a2c;
+    font-family: "Jura", sans-serif;
+}
+.ColorTexte2{
+    color: black;
+    font-family: "Jura", sans-serif;
+}
+
+.DivPrincipals{
+display: flex;
+align-content: space-around;}
+
+.DivPresentation {
+    display: flex;
+    justify-content: center;
+}
+
+
+.Contact{
+    background-color: aqua;
+
+}
+
+
+.DivTexteContact{
+    flex-direction: column;
+    width: 40%;
+}
+
 
 .Project {
     display: flex;
@@ -86,9 +99,6 @@ img{
     width: 800px;
     display: block inline-block;
     flex-wrap: wrap-reverse;
-}
-h2{
-
 }
 
 .contact{
