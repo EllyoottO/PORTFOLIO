@@ -90,3 +90,8 @@ img{
 h2{
 
 }
+
+.contact{
+    display: flex;
+    gap: 15px;
+}
