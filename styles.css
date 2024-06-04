@@ -1,8 +1,11 @@
 *{padding: 0;
     margin: 0;}
+
 @import url('https://fonts.googleapis.com/css2?family=Handlee&family=Jura:wght@300..700&family=Rubik+Scribble&family=Yanone+Kaffeesatz:wght@200..700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Handlee&family=Jura:wght@300..700&family=Rubik+Scribble&family=Signika+Negative:wght@300..700&family=Yanone+Kaffeesatz:wght@200..700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Jura:wght@300..700&display=swap');
+
+
 header{
     background-color:#f5efd5;
 }
@@ -20,10 +23,11 @@ a{
 li{
     list-style: none;
 }
+
+/*ul presentation resaux*/
 ul{
     display: flex;
-    align-items: center;
-    justify-content: space-evenly;
+    gap: 10px;
 }
 
 header ul{
@@ -80,7 +84,7 @@ align-content: space-around;}
 
 
 .Contact{
-    background-color: aqua;
+background-color: aqua;
 
 }
 
