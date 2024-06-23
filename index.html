@@ -45,36 +45,75 @@
 
         <div class="DivPrincipals"> <!-- mes projects -->
             <h2 class="ColorTexte1">Mes project</h2>
-            <div class="Project">
-                <!-- project 1 -->
-                <a href="">
-                    <img src="./fleurs cartoon.jpg" alt="fleurs cartton project" class="PhotoProject">
-                    <div>
-                        <a href=""class="ColorTexte2">Fleur style cartoon</a>
+            <!DOCTYPE html>
+            <html lang="en">
+            <head>
+                <meta charset="UTF-8">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <title>Projets</title>
+                <style>
+                    .Project {
+                        display: flex;
+                        flex-wrap: wrap;
+                        gap: 20px; /* Ajoute un espace entre les projets */
+                        justify-content: center;
+                    }
+                    .divProject {
+                        text-align: center; /* Centre le texte sous l'image */
+                        width: 200px; /* Définit une largeur fixe pour chaque projet */
+                    }
+                    .PhotoProject {
+                        width: 100%; /* Fait en sorte que les images remplissent la largeur du conteneur */
+                        height: auto; /* Maintient les proportions de l'image */
+                    }
+                    .ColorTexte2 {
+                        display: block; /* Assure que le lien est un bloc afin qu'il apparaisse sous l'image */
+                        margin-top: 10px; /* Ajoute un espace entre l'image et le texte */
+                        text-decoration: none; /* Supprime la décoration du lien (soulignement) */
+                        color: #000; /* Définit la couleur du texte */
+                    }
+                    .ColorTexte2:hover {
+                        text-decoration: underline; /* Ajoute un soulignement au survol */
+                    }
+                </style>
+            </head>
+            <body>
+                <div class="Project">
+                    <!-- project 1 -->
+                    <div class="divProject">
+                        <a href="">
+                            <img src="./fleurs cartoon.jpg" alt="fleurs cartoon project" class="PhotoProject">
+                            <span class="ColorTexte2">Fleur style cartoon</span>
+                        </a>
                     </div>
-                </a>
-                <!-- project 2 -->
-                <a href="">
-                    <img src="./mec fleur.jpg" alt="Project homme portant une fleurs" class="PhotoProject">
-                    <div>
-                        <a href=""class="ColorTexte2">Les joies simples</a>
+            
+                    <!-- project 2 -->
+                    <div class="divProject">
+                        <a href="">
+                            <img src="./mec fleur.jpg" alt="Project homme portant une fleurs" class="PhotoProject">
+                            <span class="ColorTexte2">Les joies simples</span>
+                        </a>
                     </div>
-                </a>
-                <!-- project 3 -->
-                <a href="">
-                    <img src="./potentiel logo.jpg" alt="citron graphique" class="PhotoProject">>
-                    <div>
-                        <a href=""class="ColorTexte2">Graphisme</a>
+            
+                    <!-- project 3 -->
+                    <div class="divProject">
+                        <a href="">
+                            <img src="./potentiel logo.jpg" alt="citron graphique" class="PhotoProject">
+                            <span class="ColorTexte2">Graphisme</span>
+                        </a>
                     </div>
-                </a>
-                <!-- project 4 -->
-                <a href="">
-                    <img src="./vach.jpg" alt="Vach avec ballon" class="PhotoProject">>
-                    <div>
-                        <a href=""class="ColorTexte2">Remonter la pente</a>
+            
+                    <!-- project 4 -->
+                    <div class="divProject">
+                        <a href="">
+                            <img src="./vach.jpg" alt="Vach avec ballon" class="PhotoProject">
+                            <span class="ColorTexte2">Remonter la pente</span>
+                        </a>
                     </div>
-                </a>
-            </div>
+                </div>
+            </body>
+            </html>
+            
         </div>
         <div class="DivPrincipals"> <!-- Mes qualitées -->
             <h2 class="ColorTexte1">Mes qualités</h2>

@@ -17,6 +17,34 @@ body{
     background-color: #ECCA9C;
 }
 
+.Project {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Ajoute un espace entre les projets */
+    justify-content: center;
+}
+
+.divProject {
+    text-align: center; /* Centre le texte sous l'image */
+    width: 200px; /* Définit une largeur fixe pour chaque projet */
+}
+
+.PhotoProject {
+    width: 100%; /* Fait en sorte que les images remplissent la largeur du conteneur */
+    height: auto; /* Maintient les proportions de l'image */
+}
+
+.ColorTexte2 {
+    display: block; /* Assure que le lien est un bloc afin qu'il apparaisse sous l'image */
+    margin-top: 10px; /* Ajoute un espace entre l'image et le texte */
+    text-decoration: none; /* Supprime la décoration du lien (soulignement) */
+    color: #000; /* Définit la couleur du texte */
+
+
+
+
+/*
+
 a{
     text-decoration: none;
 }
@@ -32,6 +60,9 @@ ul{
 
 header ul{
     padding: 15px 0;
+    display: flex;
+    justify-content: space-between;
+
 }
 
 h3{
@@ -92,6 +123,12 @@ background-color: aqua;
 .DivTexteContact{
     flex-direction: column;
     width: 40%;
+}
+
+.divProject{
+    display: flex;
+    flex-wrap: wrap;
+    
 }
 
 
